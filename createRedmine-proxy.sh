@@ -5,7 +5,7 @@ set -e
 PG_REDMINE_NAME=${PG_REDMINE_NAME:-pg-redmine}
 POSTGRES_IMAGE=${POSTGRES_IMAGE:-sameersbn/postgresql:9.4-22}
 REDMINE_NAME=${REDMINE_NAME:-redmine}
-REDMINE_IMAGE_NAME=${REDMINE_IMAGE_NAME:-timmyevil23/redmine-no-proxy}
+REDMINE_IMAGE_NAME=${REDMINE_IMAGE_NAME:-timmyevil23/redmine-proxy}
 REDMINE_VOLUME=${REDMINE_VOLUME:-redmine-volume}
 
 # Start PostgreSQL.
