@@ -1,7 +1,7 @@
 # Redmine docker
-## create Redmine container
+## create Redmine container (run destroyRedmine.sh first)
     createRedmine.sh
-## basic setup for integrating Redmine with Gerrit.
-    setupRedmine.sh
+## create Redmine container with proxy (run destroyRedmine.sh first)
+    createRedmine-proxy.sh
 ## Destroy Redmine container (Use with caution!)
     destroyRedmine.sh
